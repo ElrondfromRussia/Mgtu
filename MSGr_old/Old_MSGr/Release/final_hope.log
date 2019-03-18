@@ -1,0 +1,22 @@
+﻿Сборка начата 18.03.2019 11:25:30.
+     1>Проект "E:\gavrilenko\NIRS\MSGr_old\Old_MSGr\final_hope.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"Release\\" /Fd"Release\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib matrix.cpp main_MSGr.cpp methods_release.cpp
+         matrix.cpp
+         main_MSGr.cpp
+         methods_release.cpp
+     1>matrix.cpp(124): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fp"Release\Old_MSGr.pch" /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc140.pdb" /analyze- /errorReport:prompt "C:\Users\GavrilenkoMA\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\gavrilenko\NIRS\MSGr_old\Old_MSGr\Release\Old_MSGr.exe" /INCREMENTAL:NO /NOLOGO msmpi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\gavrilenko\NIRS\MSGr_old\Old_MSGr\Release\Old_MSGr.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\matrix.obj
+         Release\main_MSGr.obj
+         Release\methods_release.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : указан параметр /LTCG, но не требуется создание кода; удалите /LTCG из командной строки компоновки для повышения производительности компоновщика
+         final_hope.vcxproj -> E:\gavrilenko\NIRS\MSGr_old\Old_MSGr\Release\Old_MSGr.exe
+     1>Сборка проекта "E:\gavrilenko\NIRS\MSGr_old\Old_MSGr\final_hope.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.64
